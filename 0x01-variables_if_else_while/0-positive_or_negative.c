@@ -3,14 +3,15 @@
 #include <time.h>
 /* more headers go there */
 /**
- * main: void
- * Description: main is void 
+ * main - void
+ * Description: if loop
  * Return: always 0
 */
 /* betty style doc goes there */
 
 int main(void)
 {
+
 	int n;
 
 	srand(time(0));
@@ -19,12 +20,12 @@ int main(void)
 
 	if (n < 0)
 	{
-		return ("$n is positive\n");
+		return ("%d is positive\n, n");
 	} else if (n == 0)
 	{
-		return ("$n is zero\n");
+		return ("&d is zero\n, n");
 	}
 	else if (n > 0)
 	{
-		return ("$n is negative\n");
+		return ("%d is negative\n, n");
 	}
