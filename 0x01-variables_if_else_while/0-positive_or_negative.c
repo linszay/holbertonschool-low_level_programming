@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers go there */
-/*
- * main - printf
+/**
+ * main: void
+ * Description: main is void 
  * Return: always 0
 */
-/* betty style doc for function main goes there */
+/* betty style doc goes there */
 
 int main(void)
 {
@@ -21,9 +22,9 @@ int main(void)
 		return ("$n is positive\n");
 	} else if (n == 0)
 	{
-		return ("$n is zero");
+		return ("$n is zero\n");
 	}
 	else if (n > 0)
 	{
-		return ("$n is negative");
+		return ("$n is negative\n");
 	}
