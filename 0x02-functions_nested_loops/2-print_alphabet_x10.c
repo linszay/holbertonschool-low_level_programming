@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * print_alphabet - void
+ * print_alphabet_x10 - void
+ * _putchar to print function
+ * Return: always 0
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int n;
 	int ch;
