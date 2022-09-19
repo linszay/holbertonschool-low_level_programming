@@ -7,15 +7,13 @@
 
 int main(void)
 {
-	int d = 0;
-	char digit[] = "0123456789";
+	int d;
 
-	while (d < 10)
+	for (d = 0; d < 10; d++)
 	{
-		putchar(digit[d]);
+		putchar((d % 10) + '0');
 		putchar(',');
 		putchar(' ');
-		d++;
 	}
 	putchar('\n');
 	return (0);
