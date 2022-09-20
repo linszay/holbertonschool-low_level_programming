@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * add - adds two integers
- * n - test int 
+ * n - test int
  * m - test int
  * Return: result of added integers
 */
