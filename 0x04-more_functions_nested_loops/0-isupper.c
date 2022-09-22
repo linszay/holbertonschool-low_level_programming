@@ -2,7 +2,7 @@
 /**
  * _isupper - determines if int is uppercase character
  * @c: test int
- * Return: always (0)
+ * Return: 1 if uppercase, 0 if not
 */
 
 int _isupper(int c)
