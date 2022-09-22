@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - prints out numbers 0-9
- * @i: integer for loop
  * Return: void
 */
 
