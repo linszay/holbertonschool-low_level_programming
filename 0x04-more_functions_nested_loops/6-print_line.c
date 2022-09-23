@@ -2,6 +2,7 @@
 /**
  * print_line - prints a straight line in terminal
  * @n: test int
+ * @times: prints _ n times
  * Return: void
 */
 
