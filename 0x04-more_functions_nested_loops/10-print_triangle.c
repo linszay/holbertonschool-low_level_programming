@@ -9,6 +9,10 @@ void print_triangle(int size)
 {
 	int width, height, location;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 	for (width = 0; width < size; width++)
 	{
 		for (height = 0; height < (size - width); height++)
@@ -19,10 +23,6 @@ void print_triangle(int size)
 		{
 			_putchar(35);
 		}
-		_putchar('\n');
-	}
-	if (size <= 0)
-	{
 		_putchar('\n');
 	}
 }
