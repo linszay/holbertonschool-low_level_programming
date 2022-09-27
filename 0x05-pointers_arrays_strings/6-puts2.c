@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- * puts2 - prints out all even characters starting with 0
+ * puts2 - prints out all even characters starting
+ *  with 0
  * @str: string of numbers to print
- * Return: void
  */
 
 void puts2(char *str)
