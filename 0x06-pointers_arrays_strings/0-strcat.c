@@ -4,7 +4,7 @@
  * and prints to null character
  * @dest: first string
  * @src: string to be appended
- * Return: char
+ * Return: dest
 */
 
 char *_strcat(char *dest, char *src)
