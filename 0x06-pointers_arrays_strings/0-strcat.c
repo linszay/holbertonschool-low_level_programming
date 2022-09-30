@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strcat - appends src to dest string 
+ * _strcat - appends src to dest string
  * and prints to null character
  * @dest: first string
  * @src: string to be appended
