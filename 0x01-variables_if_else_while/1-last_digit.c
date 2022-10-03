@@ -3,7 +3,7 @@
 #include <stdio.h>
 /** more headers goes there */
 /**
- * main: void
+ * main - void
  * Description: if loop
  * Return: always 0
 */
