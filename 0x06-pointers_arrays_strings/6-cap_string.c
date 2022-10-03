@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * *cap_string - capitalizes all words of a sing
- * @s: pointer to sing
- * Return: sing
+ * @s: pointer to string
+ * Return: s
 */
 
 char *cap_string(char *s)
