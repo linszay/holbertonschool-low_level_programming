@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *_strchr - points to first occurrence of char
- * in string or null 
+ * in string or null
  * @s: char pointer
  * @c: chars
  * Return: s or NULL
