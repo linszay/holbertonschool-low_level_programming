@@ -4,7 +4,7 @@
  * in string or null 
  * @s: char pointer
  * @c: chars
- * return: s or NULL
+ * Return: s or NULL
 */
 
 char *_strchr(char *s, char c)
