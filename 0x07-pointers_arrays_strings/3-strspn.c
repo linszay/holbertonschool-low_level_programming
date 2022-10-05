@@ -3,9 +3,7 @@
  * _strspn - gets the length of a prefix substring
  * @s: This is the string literal
  * @accept: This is the second string
- *
- * Return: number of bytes in segment s which 
- * consist only of bytes from accept
+ * Return: k
  */
 
 unsigned int _strspn(char *s, char *accept)
