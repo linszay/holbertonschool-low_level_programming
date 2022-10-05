@@ -4,25 +4,23 @@
  * string haystack
  * @haystack: input
  * @needle: input
- * Return: pointer or null
+ * Return: 0
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack != '\0'; haystack++)
+	while (*haystack)
 	{
-		char *hay = haystack;
-		char *needle = needle;
+		char *temp;
 
-		while (*hay == *needle && *needle != '\0')
+		temp = haystack;
+		while (*needle == *haystack)
 		{
-			hay++;
-			needle++;
+			haystack++, needle++;
 		}
-
 		if (*needle == '\0')
-			return (haystack);
+			return (temp);
+		haystack++;
 	}
-
-	return ('\0');
+	return (0);
 }
