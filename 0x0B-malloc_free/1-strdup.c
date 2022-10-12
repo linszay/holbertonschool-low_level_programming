@@ -8,13 +8,13 @@
  */
 char *_strdup(char *str)
 {
-	int i, j;
+	unsigned int i, j;
 	char *array;
 
 	if (str == NULL)
 		return (NULL);
 
-	for (j = 0; j <= *str; j++)
+	for (j = 0; str[j]; j++)
 	{
 	}
 
