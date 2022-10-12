@@ -3,48 +3,46 @@
 #include "main.h"
 
 /**
- * **alloc_grid - concatenates two strings and
+ * str_concat - concatenates two strings and
  * returns pointer to newly allocated space in
  * memory with contents of s1 and s2 then null terminated
- * @width: columns of array
- * @height: rows of array
+ * @s1: output string
+ * @s2: input string
  * Return: pointer or null
  */
 
-int **alloc_grid(int width, int height) /* 6 columns and 4 rows*/
+char *str_concat(char *s1, char *s2)
 {
 	int i, j;
-	int **arr;
+	char *s;
 
-	if (width < 1 || height < 1)
-		return (NULL);
-
-	arr = (int **)malloc(sizeof(int *) * height);
-	if (arr == NULL)
+	if (s1 == NULL)
 	{
-		free(arr);
-		return (NULL);
+		s1 = "";
+	}
+	if (s2 == NULL)
+	{
+		s2 = "";
+	}
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+	}
+	for (j = 0; s2[j] != '\0'; j++)
+	{
 	}
 
-	for (i = 0; i < height; i++)
+	s = (char *)malloc(((i + j) + 1) * sizeof(char));
+
+	if (s == NULL)
+		return (NULL);
+	for (i = 0; s1[i] != '\0'; i++)
 	{
-		arr[i] = malloc(sizeof(int) * width);
-		if (arr[i] == NULL)
-		{
-			for (i = 0; i < height; i++)
-			{
-				free(arr[i]);
-			}
-			free(arr);
-			return (NULL);
-		}
+		s[i] = s1[i];
 	}
-
-	for (i = 0; i < height; i++)
-		for (j = 0; j < width; j++)
-		{
-			arr[i][j] = 0;
-		}
-
-	return (arr);
+	for (j = 0; s2[j] != '\0'; j++)
+	{
+		s[i] = s2[j];
+		i++;
+	}
+	return (s);
 }
