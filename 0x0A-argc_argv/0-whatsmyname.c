@@ -3,10 +3,10 @@
  * main - prints file name and newline
  * @argc: argument counter
  * @argv: argument vector
- * Return: void
+ * Return: 0
 */
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
@@ -14,4 +14,5 @@ void main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
+	return (0);
 }
