@@ -5,7 +5,8 @@
 /**
  * str_concat - concatenates two strings and
  * returns pointer to newly allocated space in
- * memory with contents of s1 and s2 then null terminated
+ * memory with contents of s1 and s2
+ * then null terminated
  * @s1: output string
  * @s2: input string
  * Return: pointer or null
