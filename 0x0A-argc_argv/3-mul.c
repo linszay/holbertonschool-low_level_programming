@@ -3,7 +3,7 @@
 /**
  * main - multiplies two numbers or returns 1
  * @argc: argument counter
- * @agrv: argument vector
+ * @argv: argument vector
  * Return: result or 1
 */
 
