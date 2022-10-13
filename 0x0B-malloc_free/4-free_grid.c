@@ -4,7 +4,7 @@
 /**
  * free_grid - frees a two dimensional grid created
  * by alloc_grid function
- * @grid: pointer to two dimensional array 
+ * @grid: pointer to two dimensional array
  * @height: input size
  * Return: free grid
  */
