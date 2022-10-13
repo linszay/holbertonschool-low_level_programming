@@ -1,0 +1,1 @@
+This directory contains projects that create and use dynamic libraries
