@@ -7,7 +7,7 @@
  * @b: input
  *
  * Return: result of the sum of two numbers
- */
+*/
 
 int op_add(int a, int b)
 {
@@ -21,7 +21,7 @@ int op_add(int a, int b)
  * @b: input
  *
  * Return: result of the subtraction of two numbers
- */
+*/
 
 int op_sub(int a, int b)
 {
@@ -35,7 +35,7 @@ int op_sub(int a, int b)
  * @b: input
  *
  * Return: multiplication of two numbers
- */
+*/
 
 int op_mul(int a, int b)
 {
@@ -49,7 +49,7 @@ int op_mul(int a, int b)
  * @b: input
  *
  * Return: result of the division
- */
+*/
 
 int op_div(int a, int b)
 {
@@ -63,7 +63,7 @@ int op_div(int a, int b)
  * @b: input
  *
  * Return: modulation of two numbers
- */
+*/
 
 int op_mod(int a, int b)
 {
