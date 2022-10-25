@@ -12,6 +12,7 @@
  * @argv: double pointer to arguments
  * Return: 0
  */
+
 int main(int argc, char *argv[])
 {
 	int one, two, ans;
